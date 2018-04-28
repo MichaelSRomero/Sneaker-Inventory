@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_padding_16dp">16dp</dimen>
+    <dimen name="circle_dimensions">72dp</dimen>
+    <dimen name="camera_iv_dimensions">36dp</dimen>
+    <dimen name="shape_dimensions">80dp</dimen>
+    <dimen name="margin_padding_4dp">4dp</dimen>
+    <dimen name="margin_padding_8dp">8dp</dimen>
+    <dimen name="margin_padding_32dp">32dp</dimen>
+    <dimen name="inc_dec_button">48dp</dimen>
+    <dimen name="product_name_textsize">20sp</dimen>
+    <dimen name="product_default_textsize">16sp</dimen>
+</resources>

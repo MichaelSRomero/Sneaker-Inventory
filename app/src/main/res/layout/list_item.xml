@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/margin_padding_16dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_product_image"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="@dimen/margin_padding_8dp" />
+
+    <!-- Sneaker Info -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <!-- Sneaker Name -->
+        <TextView
+            android:id="@+id/tv_product_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/product_name_textsize"
+            android:textStyle="bold"
+            tools:text="Air Max 98 Gundam" />
+
+        <!-- Sneaker Price -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_padding_4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/ListItemStyle"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:text="@string/hint_sneaker_price" />
+
+            <TextView
+                android:id="@+id/tv_product_price"
+                style="@style/ItemInfoStyle"
+                android:layout_weight="2"
+                android:fontFamily="sans-serif"
+                tools:text="$160" />
+
+        </LinearLayout>
+
+        <!-- Sneaker Quantity -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_padding_4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/ListItemStyle"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif"
+                android:text="@string/hint_sneaker_quantity" />
+
+            <TextView
+                android:id="@+id/tv_product_stock"
+                style="@style/ItemInfoStyle"
+                android:layout_weight="3"
+                android:fontFamily="sans-serif"
+                tools:text="100" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Sell Button -->
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/button_sell"
+            android:layout_width="@dimen/circle_dimensions"
+            android:layout_height="@dimen/circle_dimensions"
+            android:layout_centerInParent="true"
+            android:src="@drawable/circle" />
+
+        <ImageView
+            android:id="@+id/iv_sell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ic_sell" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_sell"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_padding_16dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/list_item_sell"
+            android:textColor="@color/colorAccent" />
+
+    </RelativeLayout>
+</LinearLayout>

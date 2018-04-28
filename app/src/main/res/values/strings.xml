@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Sneaker Inventory</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">Overview</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_supplier">Supplier</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_sneaker_name">Name</string>
+
+    <!-- Text hint for quantity field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_sneaker_price">Price</string>
+
+    <!-- Text hint for quantity field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_sneaker_quantity">Quantity</string>
+
+    <!-- Units for price of the sneakers (kilograms) [CHAR LIMIT=5] -->
+    <string name="unit_sneaker_price">$</string>
+
+    <string name="hint_email">E-Mail Address</string>
+
+    <string name="order_button">Order</string>
+
+    <string name="editor_decrement">-</string>
+
+    <string name="editor_increment">+</string>
+
+    <string name="list_item_sell">Sell</string>
+
+    <string name="editor_activity_title_new_entry">Add a Entry</string>
+
+    <string name="editor_activity_title_edit_entry">Edit Entry</string>
+
+    <!-- Label for editor menu option to save sneaker and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current entry [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+    <string name="editor_insert_entry_failed">Error with saving pet</string>
+    <string name="editor_insert_entry_successful">Entry saved</string>
+    <string name="editor_update_entry_failed">Error with updating entry</string>
+    <string name="editor_update_entry_successful">Entry updated</string>
+    <string name="delete_dialog_msg">Delete this entry?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="editor_delete_sneaker_failed">Error with deleting entry</string>
+    <string name="editor_delete_sneaker_successful">Entry deleted</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="main_empty_text">Nobody likes empty boxes...</string>
+    <string name="main_sub_empty_text">Get started by adding an entry</string>
+    <string name="email_order_subject">Request a shipment</string>
+    <string name="sale_error">Quantity cannot be reduced</string>
+    <string name="editor_empty_fields_error">Cannot leave fields empty</string>
+</resources>
